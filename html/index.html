@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/bootstrap-responsive.css">
+<link rel="stylesheet" href="../css/gallery-about-us.css">
+<link rel="stylesheet" href="../css/slider.css">
+<link rel="stylesheet" href="../css/new_custom.scss">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/custom-coffee.coffee"></script>
+<script type="text/javascript" src="../js/slider.js"></script>
+<script type="text/javascript" src="../js/slider-setings.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+<title></title>
+</head>
+<body id="primary">
+<a name="hat" class="anchor"></a>
+<header>
+<a id="main-header-text"> <span class="aqua">AQUA</span>RIUM </a>
+<nav id="main-menu">
+<ul class="navbar center-block text-center">
+<li class=" pointed aqua ajax"><a class="white text-uppercase menu-btn">About us</a> </li>
+<li class=" pointed aqua ajax"><a class="white text-uppercase menu-btn">Products</a>  </li>
+<li class=" pointed aqua dropdown ajax" id="menu-trigger1">
+<a class="white text-uppercase menu-btn dropdown-toggle" data-toggle="dropdown">Gallery</a>
+<ul class="submenu">
+<li class=" pointed aqua"><a class="white text-uppercase menu-btn">Position 1</a></li>
+<li class=" pointed dropdown" id="menu-trigger2"><a class="white text-uppercase menu-btn">Position 2</a>
+<ul class="submenu2">
+<li class=" pointed aqua dropdown"><a class="white text-uppercase menu-btn submenu2">Position 2.1</a></li>
+<li class=" pointed aqua dropdown"><a class="white text-uppercase menu-btn">Position 2.2</a></li>
+<li class=" pointed aqua dropdown"><a class="white text-uppercase menu-btn">Position 2.3</a></li>
+</ul>
+</li>
+<li class="pointed  aqua"><a class="white text-uppercase menu-btn">Position 3</a></li>
+</ul>
+</li>
+<li class="pointed aqua ajax"><a class="white text-uppercase menu-btn">Blog</a>  </li>
+<li class="pointed aqua ajax"><a class="white text-uppercase menu-btn">Contacts</a>  </li>
+</ul>
+</nav>
+</header>
+<div id="content">
+<div class="fluid_container" id="slider-container">
+<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+<div data-thumb="../img/slides/slide-mini.jpg" data-src="../img/slides/slide.jpg"></div>
+<div data-thumb="../img/slides/slide1-mini.jpg" data-src="../img/slides/slide1.jpg"></div>
+<div data-thumb="../img/slides/slide2-mini.jpg" data-src="../img/slides/slide2.jpg"></div>
+</div>
+<div class="clear"></div>
+<div class="fish-decor-slider"></div>
+</div>
+<div id="main-content-wrapper" class="container12">
+<div class="row center-block" id="main-content-actually">
+</div>
+</div>
+<div class="clear"></div>
+<div class="row text-center" id="socials">
+<div id="socials-placeholder" class="text-center">
+<div class="pointed social-pic-item" id="facebook">
+<img src="../img/facebook.png" alt="facebook">
+</div>
+<div class=" pointed social-pic-item" id="twitter">
+<img src="../img/twitter.png" alt="twitter">
+</div>
+<div class=" pointed social-pic-item" id="google-plus">
+<img src="../img/googleplus.png" alt="google+">
+</div>
+<div class=" pointed social-pic-item" id="instagram">
+<img src="../img/instagram.png" alt="instagramm">
+</div>
+</div>
+</div>
+ </div>
+<footer>
+<div id="anchor-button"><a href="#hat"><img src="../img/anchor.png" alt=""/></a></div>
+<span id="footer-text"> Жак-Ив Кусто, 1999. <a href="#"
+onclick="AjaxRequest( 'main-content-actually', '../html/privacy-policy.html' ); $('#slider-container').hide();">
+Лицензионное соглашение </a></span>
+</footer>
+</body>
+</html>
